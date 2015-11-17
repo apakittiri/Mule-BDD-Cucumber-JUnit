@@ -1,17 +1,17 @@
-package com.steinmart.cucumber.cuke;
+package com.sm.cucumber.cuke;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.mule.api.MuleException;
 
-import com.steinmart.cucumber.common.MuleEmbeddedServer;
+import com.sm.cucumber.common.MuleEmbeddedServer;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = { "classpath:feature/CucumberFeature.feature" }, glue = "com.steinmart.cucumber.cuke.steps", strict = true, format = {
+@CucumberOptions(features = { "classpath:feature/CucumberFeature.feature" }, glue = "com.sm.cucumber.cuke.steps", strict = true, format = {
 		"pretty", "html:target/cucumber", "json:target/Cucumber.json" })
 public class CucumberTest {
 

@@ -1,4 +1,4 @@
-package com.steinmart.cucumber.common;
+package com.sm.cucumber.common;
 
 import java.io.File;
 import java.io.IOException;

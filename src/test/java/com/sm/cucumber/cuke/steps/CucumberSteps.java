@@ -1,4 +1,4 @@
-package com.steinmart.cucumber.cuke.steps;
+package com.sm.cucumber.cuke.steps;
 
 import java.util.logging.Logger;
 
@@ -8,7 +8,7 @@ import org.mule.api.processor.MessageProcessor;
 import org.mule.tck.MuleTestUtils;
 import org.mule.util.IOUtils;
 
-import com.steinmart.cucumber.common.MuleEmbeddedServer;
+import com.sm.cucumber.common.MuleEmbeddedServer;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
