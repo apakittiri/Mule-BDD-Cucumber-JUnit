@@ -1,0 +1,105 @@
+[
+  {
+    "id": "file-connector-reads-a-file-from-a-particular-location-and-log-the-file-content-in-the-console",
+    "description": "",
+    "name": "File connector reads a file from a particular location and log the file content in the console",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "file-connector-reads-a-file-from-a-particular-location-and-log-the-file-content-in-the-console;send-file-content-to-logger-component;;2",
+        "description": "",
+        "name": "Send file content to logger component",
+        "keyword": "Scenario Outline",
+        "line": 10,
+        "steps": [
+          {
+            "result": {
+              "duration": 347544257,
+              "status": "passed"
+            },
+            "name": "The scenario with \"File_Data_to_Logger1\" and scenario description \"Send file data to logger component\"",
+            "keyword": "Given ",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "val": "File_Data_to_Logger1",
+                  "offset": 19
+                },
+                {
+                  "val": "Send file data to logger component",
+                  "offset": 67
+                }
+              ],
+              "location": "CucumberSteps.The_scenario_with_and_scenario_description(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ]
+          },
+          {
+            "result": {
+              "duration": 308729714,
+              "status": "passed"
+            },
+            "name": "The Source system \"File_source\" sends \"files/data.csv\" to Destination system \"Logger\"",
+            "keyword": "When ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "File_source",
+                  "offset": 19
+                },
+                {
+                  "val": "files/data.csv",
+                  "offset": 39
+                },
+                {
+                  "val": "Logger",
+                  "offset": 78
+                }
+              ],
+              "location": "CucumberSteps.The_Source_system_sends_to_Destination_system(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "result": {
+              "duration": 2443896,
+              "status": "passed"
+            },
+            "name": "one acknowledge message will come from \"Logger\" to \"File_source\"",
+            "keyword": "Then ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logger",
+                  "offset": 40
+                },
+                {
+                  "val": "File_source",
+                  "offset": 52
+                }
+              ],
+              "location": "CucumberSteps.one_acknowledge_message_will_come_from_to(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              4
+            ]
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "feature/CucumberFeature.feature"
+  }
+]

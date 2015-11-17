@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.steinmart.cucumber.cuke.CucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE! - in com.steinmart.cucumber.cuke.CucumberTest
+initializationError(com.steinmart.cucumber.cuke.CucumberTest)  Time elapsed: 0.01 sec  <<< ERROR!
+cucumber.runtime.CucumberException: No features found at [classpath:feature/CucumberFeature.feature]
+

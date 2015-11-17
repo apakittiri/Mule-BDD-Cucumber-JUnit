@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**/*.java" kind="src" path="mappings"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/api"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/app"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry excluding="**/*.java" kind="src" output="target/test-classes" path="src/test/munit"/>
+	<classpathentry excluding="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="src" path="src/test/app"/>
+	<classpathentry kind="con" path="MULE_RUNTIME"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/info/cukes/cucumber-core/1.2.3/cucumber-core-1.2.3.jar" sourcepath="M2_REPO/info/cukes/cucumber-core/1.2.3/cucumber-core-1.2.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar" sourcepath="M2_REPO/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/info/cukes/cucumber-java/1.2.3/cucumber-java-1.2.3.jar" sourcepath="M2_REPO/info/cukes/cucumber-java/1.2.3/cucumber-java-1.2.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/info/cukes/cucumber-junit/1.2.3/cucumber-junit-1.2.3.jar" sourcepath="M2_REPO/info/cukes/cucumber-junit/1.2.3/cucumber-junit-1.2.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar" sourcepath="M2_REPO/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/ftpserver/ftplet-api/1.0.6/ftplet-api-1.0.6.jar" sourcepath="M2_REPO/org/apache/ftpserver/ftplet-api/1.0.6/ftplet-api-1.0.6-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/ftpserver/ftpserver-core/1.0.6/ftpserver-core-1.0.6.jar" sourcepath="M2_REPO/org/apache/ftpserver/ftpserver-core/1.0.6/ftpserver-core-1.0.6-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar" sourcepath="M2_REPO/info/cukes/gherkin/2.12.2/gherkin-2.12.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar" sourcepath="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/fusesource/jansi/jansi/1.8/jansi-1.8.jar" sourcepath="M2_REPO/org/fusesource/jansi/jansi/1.8/jansi-1.8-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/jnr/jffi/1.2.5/jffi-1.2.5.jar" sourcepath="M2_REPO/com/github/jnr/jffi/1.2.5/jffi-1.2.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/jnr/jffi/1.2.10/jffi-1.2.10-native.jar"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.10/junit-4.10.jar" sourcepath="M2_REPO/junit/junit/4.10/junit-4.10-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/mina/mina-core/2.0.4/mina-core-2.0.4.jar" sourcepath="M2_REPO/org/apache/mina/mina-core/2.0.4/mina-core-2.0.4-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mockito/mockito-all/1.8.2/mockito-all-1.8.2.jar" sourcepath="M2_REPO/org/mockito/mockito-all/1.8.2/mockito-all-1.8.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar" sourcepath="M2_REPO/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/mulesoft/modules/mule-interceptor-module/3.7.0/mule-interceptor-module-3.7.0.jar" sourcepath="M2_REPO/com/mulesoft/modules/mule-interceptor-module/3.7.0/mule-interceptor-module-3.7.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/mulesoft/munit/mule-munit-support/3.7.0/mule-munit-support-3.7.0.jar" sourcepath="M2_REPO/com/mulesoft/munit/mule-munit-support/3.7.0/mule-munit-support-3.7.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/mulesoft/munit/munit-assert/1.0.0/munit-assert-1.0.0.jar" sourcepath="M2_REPO/com/mulesoft/munit/munit-assert/1.0.0/munit-assert-1.0.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/mulesoft/munit/munit-common/1.0.0/munit-common-1.0.0.jar" sourcepath="M2_REPO/com/mulesoft/munit/munit-common/1.0.0/munit-common-1.0.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/mulesoft/munit/munit-mock/1.0.0/munit-mock-1.0.0.jar" sourcepath="M2_REPO/com/mulesoft/munit/munit-mock/1.0.0/munit-mock-1.0.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/mulesoft/munit/munit-runner/1.0.0/munit-runner-1.0.0.jar" sourcepath="M2_REPO/com/mulesoft/munit/munit-runner/1.0.0/munit-runner-1.0.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/objenesis/objenesis/1.0/objenesis-1.0.jar" sourcepath="M2_REPO/org/objenesis/objenesis/1.0/objenesis-1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/sshd/sshd-core/0.6.0/sshd-core-0.6.0.jar" sourcepath="M2_REPO/org/apache/sshd/sshd-core/0.6.0/sshd-core-0.6.0-sources.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
